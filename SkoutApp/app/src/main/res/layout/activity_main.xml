@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="23dp"
+        android:text="Usuário"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:maxLength="100"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="61dp
+           />
+
+    <TextView
+        android:layout_width="72dp"
+        android:layout_height="23dp"
+        android:inputType="textWebEmailAddress"
+        android:text="Senha"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="120dp"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Insira sua senha... "
+        android:inputType="textPassword"
+        android:maxLength="100"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTRAR"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:layout_width="156dp"
+        android:layout_height="35dp"
+        android:text="SAIR"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+</LinearLayout>
